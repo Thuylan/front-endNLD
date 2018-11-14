@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8">
+	<title>Trang chi tiết Người Lao Động</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/detail.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/jquery/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="js/swiper.min.js"></script>
+</head>
+<body>
+	<div id="header">
+        <div class="headtop">
+            <div>
+                <ul class="thoi_gian">
+                    <li>THỨ SÁU, NGÀY 24 THÁNG 8 NĂM 2018</li>
+                    <li id="earth1"></li>
+                    <li>
+                        <select>
+                            <option value="tieng_viet">TIẾNG VIỆT</option>
+                            <option>TIẾNG ANH</option>
+                        </select>
+                    </li>
+                </ul>
+                <ul class="dang_nhap">
+                    <li id="phone"></li>
+                    <li><a href="#" title="điện thoại liên hệ">
+                        098.127.6789</a>
+                    </li>
+                    <li id="login"></li>
+                    <li><a href="#" title="đăng nhập">ĐĂNG NHẬP</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="head1">
+            <div>
+                <a href="#" title="logo báo người lao động"><i id="logo"></i></a>
+                <p>TIẾNG NÓI CỦA LIÊN ĐOÀN LAO ĐỘNG TPHCM</p>
+                <ul>
+                    <li>
+                        <a href="#" title="nói thẳng"><i id="icon1"></i><span>NÓI THẲNG</span></a>
+                    </li>
+                    <li>
+                        <a href="#" title="trích dẫn nóng"><i id="icon2"></i><span>TRÍCH DẪN NÓNG</span></a>
+                    </li>
+                    <li>
+                        <a href="#" title="tin đặc biệt"><i id="icon3"></i><span>TIN ĐẶC BIỆT</span></a>
+                    </li>
+                    <li>
+                        <a href="#" title="thị trường"><i id="icon4"></i><span>THỊ TRƯỜNG</span></a>
+                    </li>
+                    <li>
+                        <a href="#" title="bất động sản"><i id="icon5"></i><span>BẤT ĐỘNG SẢN</span></a>
+                    </li>
+                    <li>
+                        <a href="#" title="phụ nữ"><i id="icon6"></i><span>PHỤ NỮ</span></a>
+                    </li>
+                    <li>
+                        <a href="#" title="multimedia"><i id="icon7"></i><span>MULTIMEDIA</span></a>
+                    </li>
+                </ul>
+                <form>
+                <input name="search" type="text" placeholder="Search...">
+                    <button class="btn_search" type="submit" id="search"></button>
+                </form>
+            </div>
+        </div>
+        <div id="menu2" class="head2">
+            <ul>
+                <li><a class="" href="#" title="home"><div id="home"></div></a></li>
+                <li><a class="menu2_a" href="#" title="Việt Nam">VIỆT NAM</a></li>
+                <li><a class="menu2_a" href="#" title="Thế giới">THẾ GIỚI</a></li>
+                <li><a class="menu2_a" href="#" title="Kinh doanh">KINH DOANH</a></li>
+                <li><a class="menu2_a" href="#" title="Sức khỏe">SỨC KHỎE</a></li>
+                <li><a class="menu2_a" href="#" title="Giáo dục">GIÁO DỤC</a></li>
+                <li><a class="menu2_a" href="#" title="Việc làm">VIỆC LÀM</a></li>
+                <li><a class="menu2_a" href="#" title="Pháp luật">PHÁP LUẬT</a></li>
+                <li><a class="menu2_a" href="#" title="Công đoàn">CÔNG ĐOÀN</a></li>
+                <li><a class="menu2_a" href="#" title="Giải trí">GIẢI TRÍ</a></li>
+                <li><a class="menu2_a" href="#" title="Thể thao">THỂ THAO</a></li>
+                <li><a class="menu2_a" href="#" title="Đi-mua-sắm">ĐI-MUA-SẮM</a></li>
+                <li><a class="menu2_a" href="#" title="Tiện ích">TIỆN ÍCH</a></li>
+                <li><a class="menu2_a" href="#" title="Công nghệ">CÔNG NGHỆ</a></li>
+                <li><a class="menu2_a" href="#" title="Bạn đọc">BẠN ĐỌC</a></li>
+                <li><a class="menu2_a" href="#" title="Diễn đàn">DIỄN ĐÀN</a></li>
+            </ul>
+        </div>
+
+        <script>
+				window.onscroll = function() {myFunction()};
+
+				var header = document.getElementById("menu2");
+				var sticky = header.offsetTop;
+
+				function myFunction() {
+				  if (window.pageYOffset > sticky) {
+				    header.classList.add("sticky");
+				  } else {
+				    header.classList.remove("sticky");
+				  }
+				}
+		</script>
+    </div>
+
+	<div class="wp_inner ads1"></div>
+
+	<div id="content-detail" class="wp_inner bg-white">
+
+		<div class="Btn_Social">
+			<button id="fb"></button>
+			<button id="mess"></button>
+			<button id="mail"></button>
+		</div>
+
+		<div class="article">
+				<h2>Bộ Ngoại giao phản ứng việc Séc ngừng cấp visa cho lao động Việt Nam</h2>
+				<div class="status">
+					<span class="danh-gia-xe">Đánh giá xe</span>
+					<i id="clock"></i>
+                    <span class="thoi-gian">21/08/2018 08:18 AM</span>
+					<div class="Btn_f">
+							<button><i id="like"></i>Thích <span>12k</span></button>
+						<button class="margin-R-5"><i id="f"></i>Chia sẻ<span> 52k</span></button>
+						
+					</div>
+				</div>
+				<p class="article_head">Mercedes S450L đã tạo ra được danh tiếng lớn trong các cuộc đua với nhiều danh hiệu, chiếc xe luôn được đánh giá cao nhất ở khả năng vận hành, cảm giác và trải nghiệm sau vô lăng của chiếc xe tuyệt đỉnh này</p><br>
+				<ul class="related-news">
+					<li><span>25.02.2018</span><a href="#" title="Siêu xe Bugatti Vision Gran Turismo không thể lên xe tải vì hết xăng">Siêu xe Bugatti Vision Gran Turismo không thể lên xe tải vì hết xăng</a></li>
+					<li><span>25.02.2018</span><a href="Bắt gặp siêu xe Bugatti Chiron của Hoàng tử Ả-Rập dạo phố">Bắt gặp siêu xe Bugatti Chiron của Hoàng tử Ả-Rập dạo phố
+					</a></li>
+					<li><span>25.02.2018</span><a href="#" title="Hoàng tử Ả-Rập mạnh tay mua cùng lúc hai siêu xe Bugatti">Hoàng tử Ả-Rập mạnh tay mua cùng lúc hai siêu xe Bugatti</a></li>
+				</ul>
+				<p class="content-new">Vào ngày 22/4, chợ phiên cuối tuần dành cho người bán hàng rong đã chính thức hoạt động tại công viên Bạch Đằng (bên sông Sài Gòn, đường Tôn Đức Thắng.</p><br>
+				<p class="content-new">Quy mô thị trường ô tô Việt Nam nhỏ nhưng có tiềm năng tăng trưởng tốt vì dân số đông và GDP tăng trưởng nhanh. Để phát triển ngành ô tô, nâng cao tỷ lệ nội địa hóa, Toyota Việt Nam muốn Chính phủ ban hành chính sách ưu đãi.Trước đó, Chủ tịch UBND quận 1 Trần Thế Thuận đã trực tiếp đi khảo sát, kiểm tra cơ sở hạ tầng, các vị trí bãi đậu xe, hệ thống thoát nước, nhà vệ sinh</p><br>
+				<p class="content-new">
+					Trước đó, Chủ tịch UBND quận 1 Trần Thế Thuận đã trực tiếp đi khảo sát, kiểm tra cơ sở hạ tầng, các vị trí bãi đậu xe, hệ thống thoát nước, nhà vệ sinh... tại công viên Bạch Đằng để khai thác khoảng 3.200m2 của nơi này thành chợ phiên cuối tuần cho bán hàng rong trên địa bàn quận.
+					Trong ngày thứ 7 và chủ nhật đã có hàng nghìn người dân, du khách nước ngoài ghé tham quan, mua sắm và thưởng thức những món ăn đường phố Sài Gòn. Không khí mua bán tại phố hàng rong
+				</p><br>
+				<img class="article_img" src="imgs/BV.jpg" alt="ảnh minh họa"><br><br>
+				<p class="content-new">Mercedes-Benz C200 được thiết kế với phong cách thanh lịch. Phía trước xe tạo ấn tượng với người nhìn bởi lưới tản nhiệt 3D cổ điển và ngôi sao logo Mercedes-Benz ở giữa. Hốc gió có kích thước lớn và đèn pha LED được thiết kế sắc nét.</p><br>
+				<p class="content-new">Khác so với năm ngoái, phần lớn số xe con nhập khẩu từ đầu năm đến nay có xuất xứ từ Thái Lan. Riêng trong tuần vừa qua (18/5-25/5), trong số 727 xe con nhập về có tới 628 chiếc từ Thái Lan. Giá trị trung bình mỗi chiếc nhập về trong tuần hơn 25.300 USD (578 triệu đồng). Không có một chiếc xe nào được đưa về từ Ấn Độ.</p>
+				<div class="hr-new">
+				  <span>Tin liên quan</span>
+				</div>
+
+				<ul class="related-new2">
+					<li class="margin-R-29"><a href="#" title="Nhà hát kịch ra mắt nguồn sáng trong đời"><img src="imgs/anh1.jpg" alt="ảnh minh họa"><p>Nhà hát Kịch Việt Nam ra mắt "Nguồn sáng trong đời"</p></a></li>
+					<li class="margin-R-29"><a href="Nhà hát kịch ra mắt nguồn sáng trong đời"><img src="imgs/anh1.jpg" alt="ảnh minh họa"><p>Nhà hát kịch ra mắt nguồn sáng trong đời</p></a></li>
+					<li><a href="#" title="Nhà hát kịch ra mắt nguồn sáng trong đời"><img src="imgs/anh1.jpg" alt="ảnh minh họa"><p>Nhà hát kịch ra mắt nguồn sáng trong đời</p></a></li>
+				</ul>
+
+				<span class="author">Phương Chi</span>
+
+				<div class="Btn_f Btn_f2">
+					<button class="margin-R-5"><i id="f"></i>Chia sẻ<span> 52k</span></button>
+					<button><i id="like"></i>Thích <span>12k</span></button>
+				</div>
+
+				<div class="keyword">
+					<i id="keyword"></i>
+					<span>Từ khóa:</span>
+					<p><a href="#" title="CLB Real Madrid">CLB Real Madrid</a>,
+						 <a href="#" title="Ronaldo chấn thương">Ronaldo chấn thương</a>,
+						  <a href="#" title="Cristiano Ronaldo">Cristiano Ronaldo</a></p>
+				</div>
+
+				<form class="BinhLuan">
+					<label>BÌNH LUẬN</label>
+					<textarea placeholder="Nội dung bình luận"></textarea>
+					<button>GỬI</button>
+					<i id="comment2"></i>
+					<span>Có 10 người đã bình luận về bài viết này</span>
+				</form>
+
+				
+					<ul class="BinhLuan-content">
+						<li>
+							<div class="Person"><label>M</label></div>
+							<div class="Person-BL">
+								<div id="corner"></div>
+								<div class="BL-head">
+									<p>Trần Minh</p>
+									<span class="timeBL">15:48,21/08/2018</span>
+									<div class="Traloi"><i id="cm"></i><a href="#" title="Trả lời bình luận này">Trả lời bình luận này</a></div>
+								</div>
+								<p class="BL-content">Hoan hô VOV, nhân đây chúng tôi cũng có thắc mắc là tại sao chúng tôi dùng truyền hình trả tiền của VTV mà họ muốn cho chúng tôi xem gì thì được, cắt kênh đi cũng phải chịu, vậy chúng tôi có còn là "thượng đế" nữa hay không? Còn việc VTV nói đắt thì chúng tôi cũng không có điều kiện giám sát. Họ thu tiền cáp của mỗi hộ được bao nhiêu và chi phí thế nào làm sao biết được</p>
+							</div>
+						</li>
+						<li>
+							<div></div>
+							<div class="Person"><label>N</label></div>
+							<div class="Person-BL">
+								<div id="corner"></div>
+								<div class="BL-head">
+									<p>Nguyễn Phương Nam</p>
+									<span class="timeBL">15:48,21/08/2018</span>
+									<div class="Traloi"><i id="cm"></i><a href="#" title="Trả lời bình luận này">Trả lời bình luận này</a></div>
+								</div>
+								<p class="BL-content">Thật tuyệt vời, mãn nhãn quá VOV ơi!!!</p>
+							</div>
+							<div class="Person-BL2">
+								<div class="Person2"><label>L</label></div>
+								<div class="BL2-top">
+									<p>Trần Cúc Linh</p>
+									<span class="timeBL2">15:48,21/08/2018</span>
+								</div>
+								<p class="BL-content">Phải công nhận là lần này VOV không để người hâm mộ Việt Nam thất vọng chút nào. Nhà tôi vừa mua thêm chiếc tivi mới để phục vụ cho giải đấu lần này</p>
+							</div>
+						</li>
+					</ul>
+
+					<ul class="BinhLuan-content" id="bl">
+							<li>
+								<div class="Person"><label>M</label></div>
+								<div class="Person-BL">
+									<div id="corner"></div>
+									<div class="BL-head">
+										<p>Trần Minh</p>
+										<span class="timeBL">15:48,21/08/2018</span>
+										<div class="Traloi"><i id="cm"></i><a href="#" title="Trả lời bình luận này">Trả lời bình luận này</a></div>
+									</div>
+									<p class="BL-content">Hoan hô VOV, nhân đây chúng tôi cũng có thắc mắc là tại sao chúng tôi dùng truyền hình trả tiền của VTV mà họ muốn cho chúng tôi xem gì thì được, cắt kênh đi cũng phải chịu, vậy chúng tôi có còn là "thượng đế" nữa hay không? Còn việc VTV nói đắt thì chúng tôi cũng không có điều kiện giám sát. Họ thu tiền cáp của mỗi hộ được bao nhiêu và chi phí thế nào làm sao biết được</p>
+								</div>
+							</li>
+							<li>
+								<div></div>
+								<div class="Person"><label>N</label></div>
+								<div class="Person-BL">
+									<div id="corner"></div>
+									<div class="BL-head">
+										<p>Nguyễn Phương Nam</p>
+										<span class="timeBL">15:48,21/08/2018</span>
+										<div class="Traloi"><i id="cm"></i><a href="#" title="Trả lời bình luận này">Trả lời bình luận này</a></div>
+									</div>
+									<p class="BL-content">Thật tuyệt vời, mãn nhãn quá VOV ơi!!!</p>
+								</div>
+								<div class="Person-BL2">
+									<div class="Person2"><label>L</label></div>
+									<div class="BL2-top">
+										<p>Trần Cúc Linh</p>
+										<span class="timeBL2">15:48,21/08/2018</span>
+									</div>
+									<p class="BL-content">Phải công nhận là lần này VOV không để người hâm mộ Việt Nam thất vọng chút nào. Nhà tôi vừa mua thêm chiếc tivi mới để phục vụ cho giải đấu lần này</p>
+								</div>
+							</li>
+					</ul>
+					
+					<div class="xem-them">
+					<button id="btn-xt" onclick="Readmore()">Xem thêm (+3)</button>
+				</div>
+
+					<script type="text/javascript">
+						function Readmore(){
+							var new3More = document.getElementById("bl");
+							var btn = document.getElementById("btn-xt");
+
+							new3More.style.display="block";
+						}
+					</script>
+				
+				<i id="vien"></i>
+
+				<div id="chuyen-muc">
+					<i id="chuyenmuc"></i>
+					<h2><a href="#" title="cùng chuyên mục">CÙNG CHUYÊN MỤC</a></h2>
+					<ul class="chuyenmuc-head">
+						<li class="xem-theo-ngay">XEM THEO NGÀY</li>
+						<li>
+							<select>
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+							</select>
+						</li>
+						<li>
+							<select>
+								<option>THÁNG 1</option>
+								<option>THÁNG 2</option>
+								<option>THÁNG 3</option>
+								<option>THÁNG 4</option>
+								<option>THÁNG 5</option>
+								<option>THÁNG 6</option>
+								<option>THÁNG 7</option>
+								<option>THÁNG 8</option>
+								<option>THÁNG 9</option>
+								<option>THÁNG 10</option>
+								<option>THÁNG 11</option>
+								<option>THÁNG 12</option>
+							</select>
+						</li>
+						<li>
+							<select>
+								<option>2015</option>
+								<option>2016</option>
+								<option>2017</option>
+								<option>2018</option>
+							</select>
+						</li>
+						<li><button class="Btn_xem">XEM</button></li>
+					</ul>
+					<ul class="chuyenmuc-content">
+						<li class="margin-R-30">
+								<a href="#" title="Mercedes-Benz Việt Nam chính thức ra mắt bộ ba S 450 mới với giá từ gần 4,2 tỷ đồng">
+							<img src="imgs/anh2.jpg" alt="ảnh minh họa">
+							<span>Mercedes-Benz Việt Nam chính thức ra mắt bộ ba S 450 mới với giá từ gần 4,2 tỷ đồng</span>
+							<p class="noibat">Nổi bật</p>
+						</a></li>
+						<li class="margin-R-30">
+								<a href="#" title="Mercedes-Benz Việt Nam chính thức ra mắt bộ ba S 450 mới với giá từ gần 4,2 tỷ đồng">
+							<img src="imgs/anh2.jpg" alt="ảnh minh họa">
+							<span>Mercedes-Benz Việt Nam chính thức ra mắt bộ ba S 450 mới với giá từ gần 4,2 tỷ đồng</span>
+							<p class="noibat">Nổi bật</p>
+						</a></li>
+						<li>
+								<a href="#" title="Mercedes-Benz Việt Nam chính thức ra mắt bộ ba S 450 mới với giá từ gần 4,2 tỷ đồng">
+							<img src="imgs/anh2.jpg" alt="ảnh minh họa">
+							<span>Mercedes-Benz Việt Nam chính thức ra mắt bộ ba S 450 mới với giá từ gần 4,2 tỷ đồng</span>
+							<p class="noibat">Nổi bật</p>
+						</a></li>
+					</ul>
+					<ul class="chuyenmuc-content">
+							<li class="margin-R-30">
+									<a href="#" title="Mercedes-Benz Việt Nam chính thức ra mắt bộ ba S 450 mới với giá từ gần 4,2 tỷ đồng">
+								<img src="imgs/anh2.jpg" alt="ảnh minh họa">
+								<span>Mercedes-Benz Việt Nam chính thức ra mắt bộ ba S 450 mới với giá từ gần 4,2 tỷ đồng</span>
+								<p class="noibat">Nổi bật</p>
+							</a></li>
+							<li class="margin-R-30">
+									<a href="#" title="Mercedes-Benz Việt Nam chính thức ra mắt bộ ba S 450 mới với giá từ gần 4,2 tỷ đồng">
+								<img src="imgs/anh2.jpg" alt="ảnh minh họa">
+								<span>Mercedes-Benz Việt Nam chính thức ra mắt bộ ba S 450 mới với giá từ gần 4,2 tỷ đồng</span>
+								<p class="noibat">Nổi bật</p>
+							</a></li>
+							<li>
+									<a href="#" title="Mercedes-Benz Việt Nam chính thức ra mắt bộ ba S 450 mới với giá từ gần 4,2 tỷ đồng">
+								<img src="imgs/anh2.jpg" alt="ảnh minh họa">
+								<span>Mercedes-Benz Việt Nam chính thức ra mắt bộ ba S 450 mới với giá từ gần 4,2 tỷ đồng</span>
+								<p class="noibat">Nổi bật</p>
+							</a></li>
+					</ul>
+				</div>
+		</div>
+
+		<div class="ads2"></div>
+	</div>
+
+	<div id="content-detail" class="wp_inner">
+				<div class="new1">
+						<div class="new1_1">
+							<a href="#" title="Thủ tướng Nguyễn Xuân Phúc biểu dương hai đội tuyển bóng đá">
+							<img class="new1_1_img" src="imgs/Thu_tuong.jpg" atl="Thủ tướng Nguyễn Xuân Phúc">
+							<p class="new1_1_p">
+							Thủ tướng Nguyễn Xuân Phúc biểu dương hai đội tuyển bóng đá</p></a>
+							
+							<div class="status">
+								<i id="clock"></i>
+								<span>10 phút trước</span>
+								<span>-</span>
+								<i id="comment"></i>
+								<span>12</span>
+							</div>
+							<hr class="hr-dashed">
+							<ul>
+								<li><a href="#" title="Đắk lắk xây dựng và sửa chữa gần 1000 phòng học phục vụ năm học mới">Đắk lắk xây dựng và sửa chữa gần 1000 phòng học phục vụ năm học mới</a></li>
+							</ul>
+						</div>
+						<div class="new1-2">
+							<ul class=" scrollbar" id="style-1">
+							<li><a href="#" title="Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9">
+								Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9</a>
+								<div class="status margin-T-10">
+									<i id="eye"></i>
+									<span>125</span>
+									<i id="comment"></i>
+									<span>12</span>
+								</div>
+							</li>
+							<li class="margin-T-20"><a href="#" title="Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9">
+								Công an Thái Bình khởi tố vụ án giao cấu với trẻ em</a>
+								<div class="status margin-T-10">
+										<i id="eye"></i>
+										<span>125</span>
+										<i id="comment"></i>
+										<span>12</span>
+									</div>
+							</li>
+							<li class="margin-T-20"><a href="#" title="Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9">
+								8 cách trang điểm ấn tượng chỉ với thỏi son</a>
+								<div class="status margin-T-10">
+										<i id="eye"></i>
+										<span>125</span>
+										<i id="comment"></i>
+										<span>12</span>
+									</div>
+							</li>
+							<li class="margin-T-20"><a href="#" title="Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9">
+								Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9</a>
+								<div class="status margin-T-10">
+										<i id="eye"></i>
+										<span>125</span>
+										<i id="comment"></i>
+										<span>12</span>
+									</div>
+							</li>
+							<li class="margin-T-20"><a href="#" title="Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9">
+								Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9</a>
+								<div class="status margin-T-10">
+										<i id="eye"></i>
+										<span>125</span>
+										<i id="comment"></i>
+										<span>12</span>
+									</div>
+							</li>
+							<li class="margin-T-20"><a href="#" title="Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9">
+								Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9</a>
+								<div class="status margin-T-10">
+										<i id="eye"></i>
+										<span>125</span>
+										<i id="comment"></i>
+										<span>12</span>
+									</div>
+							</li>
+							<li class="margin-T-20"><a href="#" title="Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9">
+								Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9</a>
+								<div class="status margin-T-10">
+										<i id="eye"></i>
+										<span>125</span>
+										<i id="comment"></i>
+										<span>12</span>
+									</div>
+							</li>
+							<li class="margin-T-20"><a href="#" title="Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9">
+								Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9</a>
+								<div class="status margin-T-10">
+										<i id="eye"></i>
+										<span>125</span>
+										<i id="comment"></i>
+										<span>12</span>
+									</div>
+							</li>
+							<li class="margin-T-20"><a href="#" title="Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9">
+								Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9</a>
+								<div class="status margin-T-10">
+										<i id="eye"></i>
+										<span>125</span>
+										<i id="comment"></i>
+										<span>12</span>
+									</div>
+							</li>
+							<li class="margin-T-20"><a href="#" title="Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9">
+								Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9</a>
+								<div class="status margin-T-10">
+										<i id="eye"></i>
+										<span>125</span>
+										<i id="comment"></i>
+										<span>12</span>
+									</div>
+							</li>
+							<li class="margin-T-20"><a href="#" title="Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9">
+								Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9</a>
+								<div class="status margin-T-10">
+										<i id="eye"></i>
+										<span>125</span>
+										<i id="comment"></i>
+										<span>12</span>
+									</div>
+							</li>
+							<li class="margin-T-20"><a href="#" title="Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9">
+								Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9</a>
+								<div class="status margin-T-10">
+										<i id="eye"></i>
+										<span>125</span>
+										<i id="comment"></i>
+										<span>12</span>
+									</div>
+							</li>
+							<li class="margin-T-20"><a href="#" title="Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9">
+								Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9</a>
+								<div class="status margin-T-10">
+										<i id="eye"></i>
+										<span>125</span>
+										<i id="comment"></i>
+										<span>12</span>
+									</div>
+							</li>
+							<li class="margin-T-20"><a href="#" title="Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9">
+								Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9</a>
+								<div class="status margin-T-10">
+										<i id="eye"></i>
+										<span>125</span>
+										<i id="comment"></i>
+										<span>12</span>
+									</div>
+							</li>
+							<li class="margin-T-20"><a href="#" title="Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9">
+								Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9</a>
+								<div class="status margin-T-10">
+										<i id="eye"></i>
+										<span>125</span>
+										<i id="comment"></i>
+										<span>12</span>
+									</div>
+							</li>
+							<li class="margin-T-20"><a href="#" title="Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9">
+								Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9</a>
+								<div class="status margin-T-10">
+										<i id="eye"></i>
+										<span>125</span>
+										<i id="comment"></i>
+										<span>12</span>
+									</div>
+							</li>
+							<li class="margin-T-20"><a href="#" title="Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9">
+								Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9</a>
+								<div class="status margin-T-10">
+										<i id="eye"></i>
+										<span>125</span>
+										<i id="comment"></i>
+										<span>12</span>
+									</div>
+							</li>
+							<li class="margin-T-20"><a href="#" title="Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9">
+								Mở một cửa xả đáy hồ Hòa Bình lúc 13 giờ ngày 12/9</a>
+								<div class="status margin-T-10">
+										<i id="eye"></i>
+										<span>125</span>
+										<i id="comment"></i>
+										<span>12</span>
+									</div>
+							</li>
+							</ul>
+						</div>
+						<div class="list-new">
+							<ul id="carousel-inner" class="new2">
+								<li class="new2-1">
+									<a href="#" title="Đấu giá 32 giờ lan của cố phi công máy bay Su-22 khuất Mạnh Trí">
+										<img src="imgs/anh1.jpg" alt="ảnh minh họa">
+									<p>Mỗi ngày bê 70 thùng nước kiếm 20 triệu một tháng không tính vốn</p></a>
+								</li>
+								<li class="new2-1">
+									<a href="#" title="Đấu giá 32 giờ lan của cố phi công máy bay Su-22 khuất Mạnh Trí"><img src="imgs/anh2.jpg" alt="ảnh minh họa">
+									<p>Nhật Bản tê liệt vì bão Trami, chuẩn bị đối mặt bão mới</p></a>
+								</li>
+								<li class="new2-1">
+									<a href="#" title="Đấu giá 32 giờ lan của cố phi công máy bay Su-22 khuất Mạnh Trí"><img src="imgs/anh3.jpg" alt="ảnh minh họa">
+									<p>Động đất sóng thần Indonesia: Số thương vong lên đến hàng nghìn</p></a>
+								</li>
+								<li class="new2-1">
+									<a href="#" title="Đấu giá 32 giờ lan của cố phi công máy bay Su-22 khuất Mạnh Trí"><img src="imgs/anh4.jpg" alt="ảnh minh họa">
+									<p>Động đất sóng thần Indonesia: Số thương vong lên đến hàng nghìn</p></a>
+								</li>
+								<li class="new2-1">
+									<a href="#" title="Đấu giá 32 giờ lan của cố phi công máy bay Su-22 khuất Mạnh Trí"><img src="imgs/anh3.jpg" alt="ảnh minh họa">
+									<p>Động đất sóng thần Indonesia: Số thương vong lên đến hàng nghìn</p></a>
+								</li>
+								<li class="new2-1">
+									<a href="#" title="Đấu giá 32 giờ lan của cố phi công máy bay Su-22 khuất Mạnh Trí"><img src="imgs/anh3.jpg" alt="ảnh minh họa">
+									<p>Động đất sóng thần Indonesia: Số thương vong lên đến hàng nghìn</p></a>
+								</li>
+								<li class="new2-1">
+									<a href="#" title="Đấu giá 32 giờ lan của cố phi công máy bay Su-22 khuất Mạnh Trí"><img src="imgs/anh3.jpg" alt="ảnh minh họa">
+									<p>Động đất sóng thần Indonesia: Số thương vong lên đến hàng nghìn</p></a>
+								</li>
+								<li class="new2-1">
+									<a href="#" title="Đấu giá 32 giờ lan của cố phi công máy bay Su-22 khuất Mạnh Trí"><img src="imgs/anh3.jpg" alt="ảnh minh họa">
+									<p>Động đất sóng thần Indonesia: Số thương vong lên đến hàng nghìn</p></a>
+								</li>
+								<li class="new2-1">
+									<a href="#" title="Đấu giá 32 giờ lan của cố phi công máy bay Su-22 khuất Mạnh Trí"><img src="imgs/anh3.jpg" alt="ảnh minh họa">
+									<p>Động đất sóng thần Indonesia: Số thương vong lên đến hàng nghìn</p></a>
+								</li>
+								<li class="new2-1">
+									<a href="#" title="Đấu giá 32 giờ lan của cố phi công máy bay Su-22 khuất Mạnh Trí"><img src="imgs/anh3.jpg" alt="ảnh minh họa">
+									<p>Động đất sóng thần Indonesia: Số thương vong lên đến hàng nghìn</p></a>
+								</li>
+							</ul>
+						</div>
+						<button id="btn-next"  class="btn-list next"><i id="next"></i></button>
+							<button id="btn-prev" class="btn-list prev"><i id="next2"></i></button>
+
+							<div id="btn-prev-side"></div>
+							<div id="btn-next-side"></div>
+						<script type="text/javascript">
+							var prev = document.getElementById('btn-prev');
+							var next = document.getElementById('btn-next');
+							var carouselInner = document.getElementById('carousel-inner');
+
+							var actualLeft = 0;
+							var nPercentage = 0;
+							var xPercentage = 0; 
+
+							if (window.matchMedia("(min-width: 0px)").matches) {
+							  nPercentage = 100.4;
+							  xPercentage = -4;
+							}
+
+							if (window.matchMedia("(min-width: 200px)").matches) {
+							  nPercentage = 50;
+							  xPercentage = -3;
+							}
+
+							if (window.matchMedia("(min-width: 400px)").matches) {
+							  nPercentage = 33;
+							  xPercentage = -2;
+							}
+
+							// Click event: called function 
+							prev.addEventListener("click", carouselMove);
+							next.addEventListener("click", carouselMove);
+
+
+							// Function
+							function carouselMove() {
+							  var direction = this.id;
+							  
+							  if (direction === "btn-prev") {
+							    // If it's not the first element
+							    if (actualLeft < 0) {
+							      actualLeft += nPercentage;
+							      carouselInner.style.left = actualLeft + "%";
+							    } 
+
+							  } else if (direction === "btn-next") {
+							  	prev.style.display = "block";
+							    // If it's not the latest element
+							    if (actualLeft > (nPercentage * xPercentage) ) {
+							      actualLeft -= nPercentage;
+							      carouselInner.style.left = actualLeft + "%";
+							    } 
+
+							  } // Enf of if (direction === ... ) 
+							  
+							} // End of function carouselMove
+						</script>
+						<i id="vien2"></i>
+						<div class="doc-them">
+							<div><i id="chuyenmuc"></i><span><a href="#" title="đọc thêm">ĐỌC THÊM</a></span></div>
+							<ul>
+								<li>
+										<a href="#" title="Ngày 25/5, Quốc hội thảo luận về KT-XH và ngân sách nhà nước">
+									<img src="imgs/anh4.jpg" alt="ảnh minh họa">
+									<span class="DT-list">Ngày 25/5, Quốc hội thảo luận về KT-XH và ngân sách nhà nước</span></a><br>
+									<span class="DT-time">4 giờ trước</span>
+									<p>Ngày 25/5, Quốc hội thảo luận ở hội trường về đánh giá bổ sung kết quả thực hiện kế hoạch phát triển kinh tế - xã hội và ngân sách nhà nước năm 2017</p>
+								</li>
+								<li>
+										<a href="#" title="Ngày 25/5, Quốc hội thảo luận về KT-XH và ngân sách nhà nước">
+									<img src="imgs/anh4.jpg" alt="ảnh minh họa">
+									<span class="DT-list">Ngày 25/5, Quốc hội thảo luận về KT-XH và ngân sách nhà nước</span></a><br>
+									<span class="DT-time">4 giờ trước</span>
+									<p>Ngày 25/5, Quốc hội thảo luận ở hội trường về đánh giá bổ sung kết quả thực hiện kế hoạch phát triển kinh tế - xã hội và ngân sách nhà nước năm 2017</p>
+								</li>
+								<li>
+										<a href="#" title="Ngày 25/5, Quốc hội thảo luận về KT-XH và ngân sách nhà nước">
+									<img src="imgs/anh4.jpg" alt="ảnh minh họa">
+									<span class="DT-list">Ngày 25/5, Quốc hội thảo luận về KT-XH và ngân sách nhà nước</span></a><br>
+									<span class="DT-time">4 giờ trước</span>
+									<p>Ngày 25/5, Quốc hội thảo luận ở hội trường về đánh giá bổ sung kết quả thực hiện kế hoạch phát triển kinh tế - xã hội và ngân sách nhà nước năm 2017</p>
+								</li>
+								<li>
+										<a href="#" title="Ngày 25/5, Quốc hội thảo luận về KT-XH và ngân sách nhà nước">
+									<img src="imgs/anh4.jpg" alt="ảnh minh họa">
+									<span class="DT-list">Ngày 25/5, Quốc hội thảo luận về KT-XH và ngân sách nhà nước</span></a><br>
+									<span class="DT-time">4 giờ trước</span>
+									<p>Ngày 25/5, Quốc hội thảo luận ở hội trường về đánh giá bổ sung kết quả thực hiện kế hoạch phát triển kinh tế - xã hội và ngân sách nhà nước năm 2017</p>
+								</li>
+								<li>
+										<a href="#" title="Ngày 25/5, Quốc hội thảo luận về KT-XH và ngân sách nhà nước">
+									<img src="imgs/anh4.jpg" alt="ảnh minh họa">
+									<span class="DT-list">Ngày 25/5, Quốc hội thảo luận về KT-XH và ngân sách nhà nước</span></a><br>
+									<span class="DT-time">4 giờ trước</span>
+									<p>Ngày 25/5, Quốc hội thảo luận ở hội trường về đánh giá bổ sung kết quả thực hiện kế hoạch phát triển kinh tế - xã hội và ngân sách nhà nước năm 2017</p>
+								</li>
+								<li>
+										<a href="#" title="Ngày 25/5, Quốc hội thảo luận về KT-XH và ngân sách nhà nước">
+									<img src="imgs/anh4.jpg" alt="ảnh minh họa">
+									<span class="DT-list">Ngày 25/5, Quốc hội thảo luận về KT-XH và ngân sách nhà nước</span></a><br>
+									<span class="DT-time">4 giờ trước</span>
+									<p>Ngày 25/5, Quốc hội thảo luận ở hội trường về đánh giá bổ sung kết quả thực hiện kế hoạch phát triển kinh tế - xã hội và ngân sách nhà nước năm 2017</p>
+								</li>
+								<li>
+										<a href="#" title="Ngày 25/5, Quốc hội thảo luận về KT-XH và ngân sách nhà nước">
+									<img src="imgs/anh4.jpg" alt="ảnh minh họa">
+									<span class="DT-list">Ngày 25/5, Quốc hội thảo luận về KT-XH và ngân sách nhà nước</span></a><br>
+									<span class="DT-time">4 giờ trước</span>
+									<p>Ngày 25/5, Quốc hội thảo luận ở hội trường về đánh giá bổ sung kết quả thực hiện kế hoạch phát triển kinh tế - xã hội và ngân sách nhà nước năm 2017</p>
+								</li>
+								<li>
+										<a href="#" title="Ngày 25/5, Quốc hội thảo luận về KT-XH và ngân sách nhà nước">
+									<img src="imgs/anh4.jpg" alt="ảnh minh họa">
+									<span class="DT-list">Ngày 25/5, Quốc hội thảo luận về KT-XH và ngân sách nhà nước</span></a><br>
+									<span class="DT-time">4 giờ trước</span>
+									<p>Ngày 25/5, Quốc hội thảo luận ở hội trường về đánh giá bổ sung kết quả thực hiện kế hoạch phát triển kinh tế - xã hội và ngân sách nhà nước năm 2017</p>
+								</li>
+								<li>
+										<a href="#" title="Ngày 25/5, Quốc hội thảo luận về KT-XH và ngân sách nhà nước">
+									<img src="imgs/anh4.jpg" alt="ảnh minh họa">
+									<span class="DT-list">Ngày 25/5, Quốc hội thảo luận về KT-XH và ngân sách nhà nước</span></a><br>
+									<span class="DT-time">4 giờ trước</span>
+									<p>Ngày 25/5, Quốc hội thảo luận ở hội trường về đánh giá bổ sung kết quả thực hiện kế hoạch phát triển kinh tế - xã hội và ngân sách nhà nước năm 2017</p>
+								</li>
+							</ul>
+						</div>
+				</div>
+
+			<div class="ads3"></div>
+			<div class="sideright"></div>
+
+	</div>
+
+	<div id="footer">
+        <div class="wp_inner">
+            <div class="table footer_head">
+                <div class="column col-10"><a href="#" title="logo báo Người Lao Động"><i id="logo2"></i></a></div>
+                <div class="column"><p class="quang-cao-truyen-thong"><a class="outerH" href="#"><i id="QC"></i>Quảng cáo truyền thông</a></p></div>
+                <div class="column"><p class="thong-tin-toa-soan"><a class="outerH"href="#">Thông tin tòa soạn</a></p></div>
+            </div>
+            <hr>
+            <div class="table table--pad">
+                <div class="row row-3">
+                    <div class="column col-2"><a class="BCol" href="#" title="thời sự">THỜI SỰ</a></div>
+                    <div class="column col-2"><a class="BCol" href="#" title="an sinh xã hội">AN SINH XÃ HỘI</a></div>
+                    <div class="column col-2"><a class="BCol" href="#" title="người có công">NGƯỜI CÓ CÔNG</a></div>
+                    <div class="column col-2"><a class="BCol" href="#" title="thị trường lao động">THỊ TRƯỜNG LAO ĐỘNG</a></div>
+                    <div class="column col-2"><a class="BCol" href="#" title="giáo dục nghề nghiệp">GIÁO DỤC NGHỀ NGHIỆP</a></div>
+                </div>
+                <div class="row row-2">
+                    <div class="column col-2"><a class="smallCol" href="#" title="tin tức sự kiên trong nước">Tin tức sự kiện trong nước</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Bảo trợ xã hội">Bảo trợ xã hội</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Chính sách người có công">Chính sách người có công</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Tiền lương">Tiền lương</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Tin tức học đường">Tin tức học đường</a></div>
+                </div>
+                <div class="row row-2">
+                    <div class="column col-2"><a class="smallCol" href="#" title="Tin tức sự kiện quốc tế">Tin tức sự kiện quốc tế</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Bảo hiểm xã hội">Bảo hiểm xã hội</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Thông tin liệt sĩ">Thông tin liệt sĩ</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Quan hệ lao động">Quan hệ lao động</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Giáo dục">Giáo dục</a></div>
+                </div>
+                <div class="row row-2">
+                    <div class="column col-2"></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Trẻ em">Trẻ em</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Đền ơn đáp nghĩa">Đền ơn đáp nghĩa</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Xu hướng nghề nghiệp">Xu hướng nghề nghiệp</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Dạy nghề">Dạy nghề</a></div>
+                </div>
+            </div>
+            <div class="table table--pad">
+                <div class="row row-3">
+                    <div class="column col-2"><a class="BCol" href="#" title="TRUYỀN HÌNH DÂN SỰ">TRUYỀN HÌNH DÂN SỰ</a></div>
+                    <div class="column col-2"><a class="BCol" href="#" title="KINH TẾ">KINH TẾ</a></div>
+                    <div class="column col-2"><a class="BCol" href="#" title="GIẢI TRÍ">GIẢI TRÍ</a></div>
+                    <div class="column col-2"><a class="BCol" href="#" title="PHÁP LUẬT">PHÁP LUẬT</a></div>
+                    <div class="column col-2"><a class="BCol" href="#" title="ĐỜI SỐNG">ĐỜI SỐNG</a></div>
+                </div>
+                <div class="row row-2">
+                    <div class="column col-2"><a class="smallCol" href="#" title="An sinh xã hội">An sinh xã hội</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Tài chính">Tài chính</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Văn hóa">Văn hóa</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="An sinh trật tự">An ninh trật tự</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Sức khỏe">Sức khỏe</a></div>
+                </div>
+                <div class="row row-2">
+                    <div class="column col-2"><a class="smallCol" href="#" title="Trẻ em">Trẻ em</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Bất động sản">Bất động sản</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Thể thao">Thể thao</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Phòng chống tệ nạn">Phòng chống tệ nạn</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Y tế">Y tế</a></div>
+                </div>
+                <div class="row row-2">
+                    <div class="column col-2"><a class="smallCol" href="#" title="Giải trí">Giải trí</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Ngân hàng">Ngân hàng</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Du lịch">Du lịch</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Bạn đọc">Bạn đọc</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Gia đình">Gia đình</a></div>
+                </div>
+            </div>
+            <div class="table table--pad">
+                <div class="row row-3">
+                    <div class="column col-2"><a class="BCol" href="#" title="CÔNG NGHỆ">CÔNG NGHỆ</a></div>
+                    <div class="column col-2"><a class="BCol" href="#" title="BẠN ĐỌC VIẾT">BẠN ĐỌC VIẾT</a></div>
+                    <div class="column col-2"><a class="BCol" href="#" title="CÔNG NGHỆ">CÔNG NGHỆ</a></div>
+                    <div class="column col-2"><a class="BCol" href="#" title="THỊ TRƯỜNG LAO ĐỘNG">THỊ TRƯỜNG LAO ĐỘNG</a></div>
+                    <div class="column col-2"></div>
+                </div>
+                <div class="row row-2">
+                    <div class="column col-2"><a class="smallCol" href="#" title="Ô tô">Ô tô</a></div>
+                    <div class="column col-2"></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Ô tô">Ô tô</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="tiền lương">Tiền lương</a></div>
+                    <div class="column col-2"></div>
+                </div>
+                <div class="row row-2">
+                    <div class="column col-2"><a class="smallCol" href="#" title="Xe máy">Xe máy</a></div>
+                    <div class="column col-2"></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Xe máy">Xe máy</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Quan hệ lao động">Quan hệ lao động</a></div>
+                    <div class="column col-2"></div>
+                </div>
+                <div class="row row-2">
+                    <div class="column col-2"><a class="smallCol" href="#" title="Điện thoại">Điện thoại</a></div>
+                    <div class="column col-2"></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Điện thoại">Điện thoại</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Xu hướng nghề nghiệp">Xu hướng nghề nghiệp</a></div>
+                    <div class="column col-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

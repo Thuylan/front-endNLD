@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8">
+	<title>Trang chuyên mục Người Lao Động</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/muc.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.js"></script>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.slimscroll.js"></script>
+</head>
+<body>
+	<div id="header">
+        <div class="headtop">
+            <div>
+                <ul class="thoi_gian">
+                    <li>THỨ SÁU, NGÀY 24 THÁNG 8 NĂM 2018</li>
+                    <li id="earth1"></li>
+                    <li>
+                        <select>
+                            <option value="tieng_viet">TIẾNG VIỆT</option>
+                            <option>TIẾNG ANH</option>
+                        </select>
+                    </li>
+                </ul>
+                <ul class="dang_nhap">
+                    <li id="phone"></li>
+                    <li><a href="#" title="điện thoại liên hệ">
+                        098.127.6789</a>
+                    </li>
+                    <li id="login"></li>
+                    <li><a href="#" title="đăng nhập">ĐĂNG NHẬP</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="head1">
+            <div>
+                <a href="#" title="logo báo người lao động"><i id="logo"></i></a>
+                <p>TIẾNG NÓI CỦA LIÊN ĐOÀN LAO ĐỘNG TPHCM</p>
+                <ul>
+                    <li>
+                        <a href="#" title="nói thẳng"><i id="icon1"></i><span>NÓI THẲNG</span></a>
+                    </li>
+                    <li>
+                        <a href="#" title="trích dẫn nóng"><i id="icon2"></i><span>TRÍCH DẪN NÓNG</span></a>
+                    </li>
+                    <li>
+                        <a href="#" title="tin đặc biệt"><i id="icon3"></i><span>TIN ĐẶC BIỆT</span></a>
+                    </li>
+                    <li>
+                        <a href="#" title="thị trường"><i id="icon4"></i><span>THỊ TRƯỜNG</span></a>
+                    </li>
+                    <li>
+                        <a href="#" title="bất động sản"><i id="icon5"></i><span>BẤT ĐỘNG SẢN</span></a>
+                    </li>
+                    <li>
+                        <a href="#" title="phụ nữ"><i id="icon6"></i><span>PHỤ NỮ</span></a>
+                    </li>
+                    <li>
+                        <a href="#" title="multimedia"><i id="icon7"></i><span>MULTIMEDIA</span></a>
+                    </li>
+                </ul>
+                <form>
+                <input name="search" type="text" placeholder="Search...">
+                    <button class="btn_search" type="submit" id="search"></button>
+                </form>
+            </div>
+        </div>
+        <div id="menu2" class="head2">
+            <ul>
+                <li><a class="" href="#" title="home"><div id="home"></div></a></li>
+                <li><a class="menu2_a" href="#" title="Việt Nam">VIỆT NAM</a></li>
+                <li><a class="menu2_a" href="#" title="Thế giới">THẾ GIỚI</a></li>
+                <li><a class="menu2_a" href="#" title="Kinh doanh">KINH DOANH</a></li>
+                <li><a class="menu2_a" href="#" title="Sức khỏe">SỨC KHỎE</a></li>
+                <li><a class="menu2_a" href="#" title="Giáo dục">GIÁO DỤC</a></li>
+                <li><a class="menu2_a" href="#" title="Việc làm">VIỆC LÀM</a></li>
+                <li><a class="menu2_a" href="#" title="Pháp luật">PHÁP LUẬT</a></li>
+                <li><a class="menu2_a" href="#" title="Công đoàn">CÔNG ĐOÀN</a></li>
+                <li><a class="menu2_a" href="#" title="Giải trí">GIẢI TRÍ</a></li>
+                <li><a class="menu2_a" href="#" title="Thể thao">THỂ THAO</a></li>
+                <li><a class="menu2_a" href="#" title="Đi-mua-sắm">ĐI-MUA-SẮM</a></li>
+                <li><a class="menu2_a" href="#" title="Tiện ích">TIỆN ÍCH</a></li>
+                <li><a class="menu2_a" href="#" title="Công nghệ">CÔNG NGHỆ</a></li>
+                <li><a class="menu2_a" href="#" title="Bạn đọc">BẠN ĐỌC</a></li>
+                <li><a class="menu2_a" href="#" title="Diễn đàn">DIỄN ĐÀN</a></li>
+            </ul>
+        </div>
+
+        <script>
+				window.onscroll = function() {myFunction()};
+
+				var header = document.getElementById("menu2");
+				var sticky = header.offsetTop;
+
+				function myFunction() {
+				  if (window.pageYOffset > sticky) {
+				    header.classList.add("sticky");
+				  } else {
+				    header.classList.remove("sticky");
+				  }
+				}
+		</script>
+    </div>
+
+	<div class="wp_inner">
+
+	<div class="ads"></div>
+	</div>
+
+	<div class="wp_inner container-muc">
+		<div class="muc-content">
+
+			<div class="vanhoa">
+				<div class="vanhoa-head">
+				<span><a href="#" title="Văn hóa">VĂN HÓA</a></span>
+				<ul>
+					<li><a href="#" title="gia đình">GIA ĐÌNH </a></li>
+					<li><a href="#" title="dân tộc">DÂN TỘC</a></li>
+					<li><a href="#" title="sự kiện văn hóa">SỰ KIỆN-VĂN HÓA</a></li>
+					<li><a href="#" title="sách">SÁCH</a></li>
+					<li><a href="#" title="vang mãi giai điệu tổ quốc">VANG MÃI GIA ĐIỆU TỔ QUỐC</a></li>
+				</ul></div>
+				<a href="#" title="Nhà hát Kịch Việt Nam ra mắt Nguồn sáng trong đời">
+				<img src="imgs/anh1.jpg" alt="ảnh minh họa"></a>
+				<div class="div-up">
+					<h2><a href="#" title="Nhà hát Kịch Việt Nam ra mắt Nguồn sáng trong đời">Nhà hát Kịch Việt Nam ra mắt "Nguồn sáng trong đời"</a></h2>
+					<p>Ngày 25/5, Quốc hội thảo luận ở hội trường về đánh giá bổ sung kết quả thực hiện kế hoạch phát triển kinh tế - xã hội và ngân sách nhà nước năm 2017; tình hình thực hiện kế hoạch </p>
+				</div>
+			</div>
+
+			<div class="small-new">
+				<div class="dbl">
+					<label><a href="#">Đừng bỏ lỡ</a></label>
+					<ul>
+						<li>
+							<a href="#" title="Bất ngờ bắt tay giữa bảo tàng và thời trang xa xỉ">
+								<img src="imgs/anh1.jpg" alt="ảnh minh họa">
+								<p>Bất ngờ bắt tay giữa bảo tàng và thời trang xa xỉ</p>
+							</a>
+						</li>
+						<li>
+							<a href="#" title="Bất ngờ bắt tay giữa bảo tàng và thời trang xa xỉ">
+								<img src="imgs/anh1.jpg" alt="ảnh minh họa">
+								<p>Bất ngờ bắt tay giữa bảo tàng và thời trang xa xỉ</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<ul class="sm-center">
+					<li>
+						<a href="#" title="Thủ tướng đề nghị bộ trưởng GDDT phát biểu về kỳ thi tốt nghiệp THPT">
+							<img src="imgs/anh1.jpg">
+							<p>Thủ tướng đề nghị bộ trưởng GDDT phát biểu về kỳ thi tốt nghiệp THPT</p>
+							
+						</a>
+					</li>
+					<li>
+						<a href="#" title="Thủ tướng đề nghị bộ trưởng GDDT phát biểu về kỳ thi tốt nghiệp THPT">
+							<img src="imgs/anh1.jpg">
+							<p>Thủ tướng đề nghị bộ trưởng GDDT phát biểu về kỳ thi tốt nghiệp THPT</p>
+							
+						</a>
+					</li>
+					<li>
+						<a href="#" title="Thủ tướng đề nghị bộ trưởng GDDT phát biểu về kỳ thi tốt nghiệp THPT">
+							<img src="imgs/anh1.jpg">
+							<p>Thủ tướng đề nghị bộ trưởng GDDT phát biểu về kỳ thi tốt nghiệp THPT</p>
+							
+						</a>
+					</li>
+					<li>
+						<a href="#" title="Thủ tướng đề nghị bộ trưởng GDDT phát biểu về kỳ thi tốt nghiệp THPT">
+							<img src="imgs/anh1.jpg">
+							<p>Thủ tướng đề nghị bộ trưởng GDDT phát biểu về kỳ thi tốt nghiệp THPT</p>
+							
+						</a>
+					</li>
+					<li>
+						<a href="#" title="Thủ tướng đề nghị bộ trưởng GDDT phát biểu về kỳ thi tốt nghiệp THPT">
+							<img src="imgs/anh1.jpg">
+							<p>Thủ tướng đề nghị bộ trưởng GDDT phát biểu về kỳ thi tốt nghiệp THPT</p>
+							
+						</a>
+					</li>
+				</ul>
+
+				<div class="xemnhieu">
+					<label><a href="#" title="xem nhiều nhất">Xem nhiều nhất</a></label>
+					<ul>
+						<li><p><a href="#" title="Bộ trưởng Phùng Xuân Nhạ: Con người mà không có tâm trong sáng ">Bộ trưởng Phùng Xuân Nhạ: Con người mà không có tâm trong sáng </a></p></li>
+						<li><p><a href="#" title="Bộ trưởng Phùng Xuân Nhạ: Con người mà không có tâm trong sáng ">Cơ sở mầm non ánh vàng bị nghi bạo hành </a></p></li>
+						<li><p><a href="#" title="Bộ trưởng Phùng Xuân Nhạ: Con người mà không có tâm trong sáng ">Cơ sở mầm non ánh vàng bị nghi bạo hành </a></p></li>
+						<li><p><a href="#" title="Bộ trưởng Phùng Xuân Nhạ: Con người mà không có tâm trong sáng ">Bộ trưởng Phùng Xuân Nhạ: Con người mà không có tâm trong sáng </a></p></li>
+						<li><p><a href="#" title="Bộ trưởng Phùng Xuân Nhạ: Con người mà không có tâm trong sáng ">Bộ trưởng Phùng Xuân Nhạ: Con người mà không có tâm trong sáng </a></p></li>
+					</ul>
+				</div>
+			</div>
+
+			<i id="vien3"></i>
+
+			<div class="list-muc" >
+
+				<div class="list-muc_XT">
+					<ul class="xemthem">
+						<li>
+								<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+							<img src="imgs/anh1.jpg" alt="ảnh minh họa"></a>
+							<i id="clock"></i>
+							<p>10 phút trước</p>
+							<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+								<p>Cảnh sát dùng súng bắn tỉa vây bắt đối tượng hình sự cố thủ trong nhà ở Nghệ An</p>
+							</a>
+						</li>
+						<li>
+								<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+							<img src="imgs/anh1.jpg" alt="ảnh minh họa"></a>
+							<i id="clock"></i>
+							<p>10 phút trước</p>
+							<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+								<p>Phát hiện "Cá mập siêu bạo chúa" từng tuyệt chủng khủng long</p>
+							</a>
+						</li>
+						<li>
+								<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+							<img src="imgs/anh1.jpg" alt="ảnh minh họa"></a>
+							<i id="clock"></i>
+							<p>10 phút trước</p>
+							<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+								<p>Phát hiện "Cá mập siêu bạo chúa" từng tuyệt chủng khủng long</p>
+							</a>
+						</li>
+						<li>
+								<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+							<img src="imgs/anh1.jpg" alt="ảnh minh họa"></a>
+							<i id="clock"></i>
+							<p>10 phút trước</p>
+							<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+								<p>Phát hiện "Cá mập siêu bạo chúa" từng tuyệt chủng khủng long</p>
+							</a>
+						</li>
+						<li>
+								<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+							<img src="imgs/anh1.jpg" alt="ảnh minh họa"></a>
+							<i id="clock"></i>
+							<p>10 phút trước</p>
+							<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+								<p>Cảnh sát dùng súng bắn tỉa vây bắt đối tượng hình sự cố thủ trong nhà ở Nghệ An</p>
+							</a>
+						</li>
+						<li>
+								<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+							<img src="imgs/anh1.jpg" alt="ảnh minh họa"></a>
+							<i id="clock"></i>
+							<p>10 phút trước</p>
+							<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+								<p>Phát hiện "Cá mập siêu bạo chúa" từng tuyệt chủng khủng long</p>
+							</a>
+						</li>
+						<li>
+								<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+							<img src="imgs/anh1.jpg" alt="ảnh minh họa"></a>
+							<i id="clock"></i>
+							<p>10 phút trước</p>
+							<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+								<p>Phát hiện "Cá mập siêu bạo chúa" từng tuyệt chủng khủng long</p>
+							</a>
+						</li>
+						<li>
+								<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+							<img src="imgs/anh1.jpg" alt="ảnh minh họa"></a>
+							<i id="clock"></i>
+							<p>10 phút trước</p>
+							<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+								<p>Phát hiện "Cá mập siêu bạo chúa" từng tuyệt chủng khủng long</p>
+							</a>
+						</li>
+						<li>
+								<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+							<img src="imgs/anh1.jpg" alt="ảnh minh họa"></a>
+							<i id="clock"></i>
+							<p>10 phút trước</p>
+							<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+								<p>Cảnh sát dùng súng bắn tỉa vây bắt đối tượng hình sự cố thủ trong nhà ở Nghệ An</p>
+							</a>
+						</li>
+						<li>
+								<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+							<img src="imgs/anh1.jpg" alt="ảnh minh họa"></a>
+							<i id="clock"></i>
+							<p>10 phút trước</p>
+							<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+								<p>Phát hiện "Cá mập siêu bạo chúa" từng tuyệt chủng khủng long</p>
+							</a>
+						</li>
+						<li>
+								<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+							<img src="imgs/anh1.jpg" alt="ảnh minh họa"></a>
+							<i id="clock"></i>
+							<p>10 phút trước</p>
+							<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+								<p>Phát hiện "Cá mập siêu bạo chúa" từng tuyệt chủng khủng long</p>
+							</a>
+						</li>
+						<li>
+								<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+							<img src="imgs/anh1.jpg" alt="ảnh minh họa"></a>
+							<i id="clock"></i>
+							<p>10 phút trước</p>
+							<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+								<p>Phát hiện "Cá mập siêu bạo chúa" từng tuyệt chủng khủng long</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="xemthem_right">
+					<div class="sk"><a href="#" title="Sự kiện văn hóa">Sự kiện văn hóa</a>
+						<div id="sk"></div>
+					</div>
+
+					<div class="sk_vh">
+							<a href="#" title="Giới thiệu 200 tư liệu linh vật Nghê Việt tại Đà Nẵng">
+						<img src="imgs/anh1.jpg" alt="ảnh minh họa">
+						<h2>Giới thiệu 200 tư liệu linh vật Nghê Việt tại Đà Nẵng</h2></a>
+						<ul>
+							<li><a href="#" title="Hòa tiếc nuối, Bình Dương đánh mất lợi thế trước khi về nhà">Hòa tiếc nuối, Bình Dương đánh mất lợi thế trước khi về nhà</a></li>
+							<li><a href="#" title="Hòa tiếc nuối, Bình Dương đánh mất lợi thế trước khi về nhà">Hòa tiếc nuối, Bình Dương đánh mất lợi thế trước khi về nhà</a></li>
+						</ul>
+					</div>
+					<div class="sk"><a href="#">Vang mãi giai điệu</a>
+						<div id="vang-mai-giai-dieu"></div>
+					</div>
+					<div class="sk_vh">
+							<a href="#" title="Giới thiệu 200 tư liệu linh vật Nghê Việt tại Đà Nẵng">
+						<img src="imgs/anh1.jpg" alt="ảnh minh họa">
+						<h2>Giới thiệu 200 tư liệu linh vật Nghê Việt tại Đà Nẵng</h2></a>
+						<ul>
+							<li><a href="#" title="Hòa tiếc nuối, Bình Dương đánh mất lợi thế trước khi về nhà">Hòa tiếc nuối, Bình Dương đánh mất lợi thế trước khi về nhà</a></li>
+							<li><a href="#" title="Hòa tiếc nuối, Bình Dương đánh mất lợi thế trước khi về nhà">Hòa tiếc nuối, Bình Dương đánh mất lợi thế trước khi về nhà</a></li>
+						</ul>
+					</div>
+					<div class="video">
+						<div class="sk">
+						<i id="video2"></i>
+						<a href="#" title="Video"><span>VIDEO</span></a>
+						<div id="video"></div>
+					</div>
+						<ul class="sk_vh">
+							<li><a href="#" title="Hoa hậu Tiểu Vy mặt mộc dạo phố Paris, khoe vẻ đẹp đầy sức sông tuổi 18">
+								<img src="imgs/anh1.jpg" alt="ảnh minh họa">
+								<p class="border-B-dotted">Hoa hậu Tiểu Vy mặt mộc dạo phố Paris, khoe vẻ đẹp đầy sức sông tuổi 18</p></a>
+							</li>
+
+							<li><a href="#" title="Hoa hậu Tiểu Vy mặt mộc dạo phố Paris, khoe vẻ đẹp đầy sức sông tuổi 18">
+								<img src="imgs/anh1.jpg" alt="ảnh minh họa">
+								<p>Hoa hậu Tiểu Vy mặt mộc dạo phố Paris, khoe vẻ đẹp đầy sức sông tuổi 18</p></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div id="listXT" class="list-muc_XT">
+					<ul class="xemthem">
+						<li>
+								<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+							<img src="imgs/anh1.jpg" alt="ảnh minh họa"></a>
+							<i id="clock"></i>
+							<p>10 phút trước</p>
+							<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+								<p>Cảnh sát dùng súng bắn tỉa vây bắt đối tượng hình sự cố thủ trong nhà ở Nghệ An</p>
+							</a>
+						</li>
+						<li>
+								<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+							<img src="imgs/anh1.jpg" alt="ảnh minh họa"></a>
+							<i id="clock"></i>
+							<p>10 phút trước</p>
+							<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+								<p>Phát hiện "Cá mập siêu bạo chúa" từng tuyệt chủng khủng long</p>
+							</a>
+						</li>
+						<li>
+								<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+							<img src="imgs/anh1.jpg" alt="ảnh minh họa"></a>
+							<i id="clock"></i>
+							<p>10 phút trước</p>
+							<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+								<p>Phát hiện "Cá mập siêu bạo chúa" từng tuyệt chủng khủng long</p>
+							</a>
+						</li>
+						<li>
+								<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+							<img src="imgs/anh1.jpg" alt="ảnh minh họa"></a>
+							<i id="clock"></i>
+							<p>10 phút trước</p>
+							<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+								<p>Phát hiện "Cá mập siêu bạo chúa" từng tuyệt chủng khủng long</p>
+							</a>
+						</li>
+						<li>
+								<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+							<img src="imgs/anh1.jpg" alt="ảnh minh họa"></a>
+							<i id="clock"></i>
+							<p>10 phút trước</p>
+							<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+								<p>Cảnh sát dùng súng bắn tỉa vây bắt đối tượng hình sự cố thủ trong nhà ở Nghệ An</p>
+							</a>
+						</li>
+						<li>
+								<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+							<img src="imgs/anh1.jpg" alt="ảnh minh họa"></a>
+							<i id="clock"></i>
+							<p>10 phút trước</p>
+							<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+								<p>Phát hiện "Cá mập siêu bạo chúa" từng tuyệt chủng khủng long</p>
+							</a>
+						</li>
+						<li>
+								<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+							<img src="imgs/anh1.jpg" alt="ảnh minh họa"></a>
+							<i id="clock"></i>
+							<p>10 phút trước</p>
+							<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+								<p>Phát hiện "Cá mập siêu bạo chúa" từng tuyệt chủng khủng long</p>
+							</a>
+						</li>
+						<li>
+								<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+							<img src="imgs/anh1.jpg" alt="ảnh minh họa"></a>
+							<i id="clock"></i>
+							<p>10 phút trước</p>
+							<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+								<p>Phát hiện "Cá mập siêu bạo chúa" từng tuyệt chủng khủng long</p>
+							</a>
+						</li>
+						<li>
+								<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+							<img src="imgs/anh1.jpg" alt="ảnh minh họa"></a>
+							<i id="clock"></i>
+							<p>10 phút trước</p>
+							<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+								<p>Cảnh sát dùng súng bắn tỉa vây bắt đối tượng hình sự cố thủ trong nhà ở Nghệ An</p>
+							</a>
+						</li>
+						<li>
+								<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+							<img src="imgs/anh1.jpg" alt="ảnh minh họa"></a>
+							<i id="clock"></i>
+							<p>10 phút trước</p>
+							<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+								<p>Phát hiện "Cá mập siêu bạo chúa" từng tuyệt chủng khủng long</p>
+							</a>
+						</li>
+						<li>
+								<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+							<img src="imgs/anh1.jpg" alt="ảnh minh họa"></a>
+							<i id="clock"></i>
+							<p>10 phút trước</p>
+							<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+								<p>Phát hiện "Cá mập siêu bạo chúa" từng tuyệt chủng khủng long</p>
+							</a>
+						</li>
+						<li>
+								<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+							<img src="imgs/anh1.jpg" alt="ảnh minh họa"></a>
+							<i id="clock"></i>
+							<p>10 phút trước</p>
+							<a href="#" title="Phát hiện Cá mập siêu bạo chúa từng tuyệt chủng khủng long">
+								<p>Phát hiện "Cá mập siêu bạo chúa" từng tuyệt chủng khủng long</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<button id="btn1" onclick="Readmore()" class="bg-white mar-b-20 btn_XT" type="button">Xem Thêm</button>
+			
+			
+			<script type="text/javascript">
+				function Readmore(){
+					var new3More = document.getElementById("listXT");
+					var btn = document.getElementById("btn1");
+
+					new3More.style.display="block";
+				}
+			</script>
+		</div>
+
+		<div class="ads2"></div>
+	</div>
+
+	<div id="footer">
+        <div class="wp_inner">
+            <div class="table footer_head">
+                <div class="column col-10"><a href="#" title="logo báo Người Lao Động"><i id="logo2"></i></a></div>
+                <div class="column"><p class="quang-cao-truyen-thong"><a class="outerH" href="#"><i id="QC"></i>Quảng cáo truyền thông</a></p></div>
+                <div class="column"><p class="thong-tin-toa-soan"><a class="outerH"href="#">Thông tin tòa soạn</a></p></div>
+            </div>
+            <hr>
+            <div class="table table--pad">
+                <div class="row row-3">
+                    <div class="column col-2"><a class="BCol" href="#" title="thời sự">THỜI SỰ</a></div>
+                    <div class="column col-2"><a class="BCol" href="#" title="an sinh xã hội">AN SINH XÃ HỘI</a></div>
+                    <div class="column col-2"><a class="BCol" href="#" title="người có công">NGƯỜI CÓ CÔNG</a></div>
+                    <div class="column col-2"><a class="BCol" href="#" title="thị trường lao động">THỊ TRƯỜNG LAO ĐỘNG</a></div>
+                    <div class="column col-2"><a class="BCol" href="#" title="giáo dục nghề nghiệp">GIÁO DỤC NGHỀ NGHIỆP</a></div>
+                </div>
+                <div class="row row-2">
+                    <div class="column col-2"><a class="smallCol" href="#" title="tin tức sự kiên trong nước">Tin tức sự kiện trong nước</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Bảo trợ xã hội">Bảo trợ xã hội</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Chính sách người có công">Chính sách người có công</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Tiền lương">Tiền lương</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Tin tức học đường">Tin tức học đường</a></div>
+                </div>
+                <div class="row row-2">
+                    <div class="column col-2"><a class="smallCol" href="#" title="Tin tức sự kiện quốc tế">Tin tức sự kiện quốc tế</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Bảo hiểm xã hội">Bảo hiểm xã hội</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Thông tin liệt sĩ">Thông tin liệt sĩ</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Quan hệ lao động">Quan hệ lao động</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Giáo dục">Giáo dục</a></div>
+                </div>
+                <div class="row row-2">
+                    <div class="column col-2"></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Trẻ em">Trẻ em</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Đền ơn đáp nghĩa">Đền ơn đáp nghĩa</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Xu hướng nghề nghiệp">Xu hướng nghề nghiệp</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Dạy nghề">Dạy nghề</a></div>
+                </div>
+            </div>
+            <div class="table table--pad">
+                <div class="row row-3">
+                    <div class="column col-2"><a class="BCol" href="#" title="TRUYỀN HÌNH DÂN SỰ">TRUYỀN HÌNH DÂN SỰ</a></div>
+                    <div class="column col-2"><a class="BCol" href="#" title="KINH TẾ">KINH TẾ</a></div>
+                    <div class="column col-2"><a class="BCol" href="#" title="GIẢI TRÍ">GIẢI TRÍ</a></div>
+                    <div class="column col-2"><a class="BCol" href="#" title="PHÁP LUẬT">PHÁP LUẬT</a></div>
+                    <div class="column col-2"><a class="BCol" href="#" title="ĐỜI SỐNG">ĐỜI SỐNG</a></div>
+                </div>
+                <div class="row row-2">
+                    <div class="column col-2"><a class="smallCol" href="#" title="An sinh xã hội">An sinh xã hội</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Tài chính">Tài chính</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Văn hóa">Văn hóa</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="An sinh trật tự">An ninh trật tự</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Sức khỏe">Sức khỏe</a></div>
+                </div>
+                <div class="row row-2">
+                    <div class="column col-2"><a class="smallCol" href="#" title="Trẻ em">Trẻ em</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Bất động sản">Bất động sản</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Thể thao">Thể thao</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Phòng chống tệ nạn">Phòng chống tệ nạn</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Y tế">Y tế</a></div>
+                </div>
+                <div class="row row-2">
+                    <div class="column col-2"><a class="smallCol" href="#" title="Giải trí">Giải trí</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Ngân hàng">Ngân hàng</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Du lịch">Du lịch</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Bạn đọc">Bạn đọc</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Gia đình">Gia đình</a></div>
+                </div>
+            </div>
+            <div class="table table--pad">
+                <div class="row row-3">
+                    <div class="column col-2"><a class="BCol" href="#" title="CÔNG NGHỆ">CÔNG NGHỆ</a></div>
+                    <div class="column col-2"><a class="BCol" href="#" title="BẠN ĐỌC VIẾT">BẠN ĐỌC VIẾT</a></div>
+                    <div class="column col-2"><a class="BCol" href="#" title="CÔNG NGHỆ">CÔNG NGHỆ</a></div>
+                    <div class="column col-2"><a class="BCol" href="#" title="THỊ TRƯỜNG LAO ĐỘNG">THỊ TRƯỜNG LAO ĐỘNG</a></div>
+                    <div class="column col-2"></div>
+                </div>
+                <div class="row row-2">
+                    <div class="column col-2"><a class="smallCol" href="#" title="Ô tô">Ô tô</a></div>
+                    <div class="column col-2"></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Ô tô">Ô tô</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="tiền lương">Tiền lương</a></div>
+                    <div class="column col-2"></div>
+                </div>
+                <div class="row row-2">
+                    <div class="column col-2"><a class="smallCol" href="#" title="Xe máy">Xe máy</a></div>
+                    <div class="column col-2"></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Xe máy">Xe máy</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Quan hệ lao động">Quan hệ lao động</a></div>
+                    <div class="column col-2"></div>
+                </div>
+                <div class="row row-2">
+                    <div class="column col-2"><a class="smallCol" href="#" title="Điện thoại">Điện thoại</a></div>
+                    <div class="column col-2"></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Điện thoại">Điện thoại</a></div>
+                    <div class="column col-2"><a class="smallCol" href="#" title="Xu hướng nghề nghiệp">Xu hướng nghề nghiệp</a></div>
+                    <div class="column col-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
